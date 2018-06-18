@@ -12,3 +12,21 @@ console.log("The javascript is loaded.");
 // -Object -Object
 // Q6. A list of student names from our class, each with a location and each with a list of favorite tv shows.
 // -Object -Object -Array
+
+// Take it Easy
+// Q1.
+const rainbowColors = ["red", "orange", "yellow", "green", "blue", "purple"];
+
+// Q2.
+console.log(rainbowColors[4]);
+
+// Q3.
+const jayEscala = {
+	favoriteFood: "pizza",
+	hobby: "basketball",
+	town: "Chicago",
+	favoriteDataType: "boolean"
+}
+
+// Q4.
+console.log(jayEscala.hobby);
