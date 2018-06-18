@@ -123,10 +123,22 @@ const bondFilms = [
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ];
 
+// Qa.
 const bondTitles = [];
 
-for(key in bondFilms) {
+for(let key in bondFilms) {
 	bondTitles.push(bondFilms[key]["title"]);
 }
 
 console.log(bondTitles);
+
+// Qb.
+const oddBonds = [];
+
+for(let key in bondFilms) {
+	if((bondFilms[key]["year"] % 2 !== 0)){
+		oddBonds.push(bondFilms[key])
+	}
+}
+
+console.log(oddBonds);
