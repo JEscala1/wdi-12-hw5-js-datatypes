@@ -142,3 +142,14 @@ for(let key in bondFilms) {
 }
 
 console.log(oddBonds);
+
+// Qc.
+let bondFilmsTotalGross = 0;
+
+for(let i = 0; i <= bondFilms.length-1; i++) {
+	let bondGrossReplaced = bondFilms[i]["gross"].replace("$","").replace(/,/g,"");
+	let bondGrossNum = parseInt(bondGrossReplaced);
+	bondFilmsTotalGross += bondGrossNum;
+}
+
+console.log(bondFilmsTotalGross);
